@@ -29,4 +29,4 @@
                 name: 
                   type: "string"
                   description: "店舗名"
-                  example: "イオン幕張新都心店"
+                  example: "店舗！"
