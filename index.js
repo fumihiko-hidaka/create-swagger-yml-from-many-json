@@ -1,4 +1,3 @@
-// resolve.js
 const fs = require('fs');
 const JsonRefs = require('json-refs');
 const YAML = require('json2yaml');
