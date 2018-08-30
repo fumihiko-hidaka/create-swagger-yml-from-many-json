@@ -1,0 +1,32 @@
+---
+  swagger: "2.0"
+  info: 
+    description: "create-swagger-yml-from-many-json"
+    version: "1.0.0"
+    title: "create-swagger-yml-from-many-json"
+  host: "localhost"
+  basePath: "/"
+  schemes: 
+    - "https"
+  consumes: 
+    - "application/json"
+  produces: 
+    - "application/json"
+  paths: 
+    /test_api: 
+      get: 
+        summary: "TEST API"
+        parameters: []
+        responses: 
+          200: 
+            schema: 
+              type: "object"
+              properties: 
+                id: 
+                  type: "integer"
+                  description: "店舗ID"
+                  example: 1
+                name: 
+                  type: "string"
+                  description: "店舗名"
+                  example: "イオン幕張新都心店"
